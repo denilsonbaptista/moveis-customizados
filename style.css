@@ -1,6 +1,18 @@
 body {
   /* 👇🏻 Definindo a fonte de tudo que tiver no body */
   font-family: 'Open Sans', sans-serif;
+
+  /* 👇🏻 Tudo que é elemento de texto eu consigo centralizar com essa propriedade */
+  text-align: center;
+}
+
+/* 👇🏻 Defino o estilo de um id */
+#hero {
+  /* 👇🏻 Defino a largura do elemento */
+  width: 592px;
+
+  /* 👇🏻 Centralizando o contêiner */
+  margin: auto;
 }
 
 h1 {
@@ -32,4 +44,10 @@ span, a {
 p {
   /* 👇🏻 Definindo coloração das tags <p> */
   color: #7d7987;
+
+  /* 👇🏻 Definindo o tamanho da fonte */
+  font-size: 14px;
+
+  /* 👇🏻 Definindo a altura da linha */
+  line-height: 28px;
 }
