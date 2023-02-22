@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- 👇🏻 links de fontes fornecido pela API do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <!-- 👆🏻 Faz com que o meu documento HTML aceite caracteres especiais -->
 
@@ -19,17 +27,11 @@
 
     <title>Móveis customizados</title>
     <!-- 👆🏻 Aqui eu tenho o título da página HTML -->
+
+    <!-- 👇🏻 Estou conectando o page HTML com a page de stilo -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="./assets/balls.svg"
-      alt="Bolinhas laranjadas no canto direito inferior da tela"
-    />
-    <!-- 👆🏻 `img` usada para incluir uma imagem na página / `src=` usado para especificar a localização da imagem /  `alt=` usado para fornecer uma descrição alternativa para a imagem, que é exibida se a imagem não puder ser carregada ou se o usuário estiver usando um leitor de tela 
-    
-      Essas `alt=` são essenciais para os motores de buscas
-    -->
-
     <!-- 👇🏻 `div` é um elemento HTML que é usado para agrupar outros elementos HTML em um bloco, podemos dizer que todo bloco são caixas
 
     `id=` são identificadores únicos -->
@@ -38,17 +40,21 @@
         src="./assets/img1.png"
         alt="Desenho de uma pessoa vestindo um camisa amarela em uma sala com móveis"
       />
-
-      <h1>Ambientes únicos para você!</h1>
+      <!-- 👇🏻 a tag <span> é usada para agrupar um trecho de texto e aplicar estilos de maneira granular. -->
+      <h1>Ambientes <span>únicos</span> para você!</h1>
       <!-- 👆🏻 Título -->
 
       <!-- 👇🏻 Parágrafos -->
       <p>
-        Nós criamos ambientes exclusívos e únicos, com muito bom gosto e
-        profissionalismo, investimos tempo e dedicação no seu projeto.
+        <!-- 👇🏻 a tag <strong> é usada para destacar um trecho de texto importante, com ênfase ou relevância para a mensagem da página. 
+        Ao contrário da tag <em> que é usada para enfatizar o texto com ênfase -->
+        Nós criamos ambientes <strong>exclusívos</strong> e
+        <strong>únicos</strong>, com muito bom gosto e profissionalismo,
+        investimos tempo e <span>dedicação no seu projeto</span>.
       </p>
       <p>
-        Tenha ambientes limpos e bem decorados, transmitindo elegância e finesse
+        Tenha <span>ambientes limpos</span> e bem decorados, transmitindo
+        <strong>elegância</strong> e <strong>finesse</strong>
         para todo aquele que estiver ali.
       </p>
     </div>
@@ -59,10 +65,20 @@
 
       <!-- 👇🏻 link do perfil do instagram -->
       <a href="https://instagram.com/moviesparavoce" target="_blank"
-        >Instagram</a>
+        >Instagram</a
+      >
 
       <!-- 👇🏻  link de e-mail, que permite que o usuário envie um e-mail clicando no link -->
       <a href="mailto:contato@moveisparavoce.com">Fale conosco</a>
     </div>
-  </body>
+
+    <img
+      id="balls"
+      src="./assets/balls.svg"
+      alt="Bolinhas laranjadas no canto direito inferior da tela"
+    />
+    <!-- 👆🏻 `img` usada para incluir uma imagem na página / `src=` usado para especificar a localização da imagem /  `alt=` usado para fornecer uma descrição alternativa para a imagem, que é exibida se a imagem não puder ser carregada ou se o usuário estiver usando um leitor de tela 
+  
+    Essas `alt=` são essenciais para os motores de buscas
+  --></body>
 </html>

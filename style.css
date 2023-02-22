@@ -1,0 +1,35 @@
+body {
+  /* 👇🏻 Definindo a fonte de tudo que tiver no body */
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  /* 👇🏻 Definindo a fonte de todos os h1 */
+  font-family: 'Inter', sans-serif;
+
+  /* 👇🏻 O tamanho da fonte em formato de pixel */
+  font-size: 49px;
+
+  /* 👇🏻 A altura da linha */
+  line-height: 56px;
+
+  /* 👇🏻 Tenho o peso da fonte que por padrão todo `h1` aplicado em uma página web é bold, que nessa caso eu estou definindo como normal */
+  font-weight: normal;
+}
+
+/* 👇🏻 `h1 span` defino que estou acessando o `span` que estiver dentro da `h1` */
+h1 span {
+  /* 👇🏻 Tenho o peso da fonte, que nesse caso estou dizendo que a minha fonte é bold*/
+  font-weight: bold;
+}
+
+/* 👇🏻 `span, a` defino que estou atribuindo o estilos a essas duas propriedade */
+span, a {
+  /* 👇🏻 Definindo a cor de tudo de todos elemente que estiver dentro do span */
+  color: #ff9900;
+}
+
+p {
+  /* 👇🏻 Definindo coloração das tags <p> */
+  color: #7d7987;
+}
