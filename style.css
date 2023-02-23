@@ -4,6 +4,9 @@ body {
 
   /* 👇🏻 Tudo que é elemento de texto eu consigo centralizar com essa propriedade */
   text-align: center;
+
+  /* 👇🏻 Por padrão o navegadores adicionam uma margin no body, aqui eu estou zerando essas margin */
+  margin: 0;
 }
 
 /* 👇🏻 Defino o estilo de um id */
@@ -11,8 +14,14 @@ body {
   /* 👇🏻 Defino a largura do elemento */
   width: 592px;
 
-  /* 👇🏻 Centralizando o contêiner */
-  margin: auto;
+  /* 👇🏻 Tenho um shorthand que pode se dizer que é o agrupamento das 4 margin, top, left, bottom e right, o valor `auto` eu estou estou centralizando  container `#hero`, `0` eu estou removendo margin superior, `72px` eu estou adicionando um espaçamento para baico do `#hero` */
+  margin: 0 auto 72px;
+}
+
+/* 👇🏻 Estou selecionando a imagem que está dentro container `#hero` */
+#hero img {
+  /* 👇🏻 Espaçamento a baixo do elemento */
+  margin-bottom: 72px;
 }
 
 h1 {
@@ -27,6 +36,9 @@ h1 {
 
   /* 👇🏻 Tenho o peso da fonte que por padrão todo `h1` aplicado em uma página web é bold, que nessa caso eu estou definindo como normal */
   font-weight: normal;
+
+  /* 👇🏻 Espaçamento de 32px para baixo no `h1` */
+  margin-bottom: 32px;
 }
 
 /* 👇🏻 `h1 span` defino que estou acessando o `span` que estiver dentro da `h1` */
@@ -50,4 +62,10 @@ p {
 
   /* 👇🏻 Definindo a altura da linha */
   line-height: 28px;
+}
+
+/* 👇🏻  `a + a` pegue uma tag `a` que anterior a ela tenha uma outra tag `a` */
+#footer a + a {
+  /* 👇🏻 Definindo um espaçamento nas tag `a` de 28 píxel */
+  margin-left: 28px;
 }
