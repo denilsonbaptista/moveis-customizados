@@ -48,12 +48,15 @@ h1 span {
 }
 
 /* 👇🏻 `span, a` defino que estou atribuindo o estilos a essas duas propriedade */
-span, a {
+span,
+a {
   /* 👇🏻 Definindo a cor de tudo de todos elemente que estiver dentro do span */
   color: #ff9900;
 }
 
-p {
+/* 👇🏻 Definindo stilo a propriedade `p, #footer` */
+p,
+#footer {
   /* 👇🏻 Definindo coloração das tags <p> */
   color: #7d7987;
 
@@ -68,4 +71,24 @@ p {
 #footer a + a {
   /* 👇🏻 Definindo um espaçamento nas tag `a` de 28 píxel */
   margin-left: 28px;
+}
+
+/* 👇🏻 Dando corpo para linha */
+#line {
+  /* 👇🏻 Definindo largura e altura da linha */
+  width: 568px;
+  height: 0;
+
+  /* 👇🏻 Centralizando a linha e definindo um bottom de 8px */
+  margin: 0 auto 8px;
+
+  /*  👇🏻 Definindo o formato da linha a parti de borda */
+  border: 1px solid #eceff2;
+}
+
+/* 👇🏻 Defino que a imagem vai ser fixa na página (right, top, bottom e left define onde será posionado)  */
+#balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
