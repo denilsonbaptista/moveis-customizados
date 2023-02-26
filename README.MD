@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h2 align="center">Flutuar - O seu próximo destino pode estar aqui...</h2>
+  <h2 align="center">Móveis customizados</h2>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 ### Demo Screeshots
 
-![Móveis customizados](.github/preview.jpg "Desktop Demo")
+![Móveis customizados](.github/preview.png "Desktop Demo")
 
 ### About
 
